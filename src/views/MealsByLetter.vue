@@ -15,11 +15,8 @@
       :meal="meal"
     ></meal-item>
   </div>
-
-  <div v-if="!meals.length" class="flex justify-center text-xl text-gray-500">
-    <p>There are no meals</p>
-  </div>
 </template>
+
 
 <script setup>
 import { onMounted, computed, watch } from "vue";
